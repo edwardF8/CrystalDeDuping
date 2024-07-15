@@ -21,3 +21,9 @@ publication year: ex: 2006, year that it was published, some databases don't sto
       Within this set (dataframe), take the newest entry (by publication year).
         IF there is more than 1 newest, take the entry that is closest to the median Volume of this set.
     Add all other entries to a toRemove dataframe, and filter out the OG dataframe, leaving all entries not in the toRemove dataframe.
+
+
+## .cif Grabber
+If you need to create a .csv with features from a .cif file, use the cifGrapper notebook
+
+You might have to edit the tags in the readFile function depending on what your .cif files look like
